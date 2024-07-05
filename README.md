@@ -1,7 +1,7 @@
 # Ajay-markdown
 Code_Notes
 
-##Two sum
+<h2>Two sum
 ``` python
 def twosum(nums,target):
     dic={}
@@ -12,5 +12,8 @@ def twosum(nums,target):
               dic[diff]=i
          else:
               return [i,dic[val]]
+nums=map(int,input().split(" "))
+target=int(input())
+print(twosum(nums,target))
 
 ```
