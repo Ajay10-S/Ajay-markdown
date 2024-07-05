@@ -1,7 +1,7 @@
 # Ajay-markdown
 Code_Notes
 
-#Two sum
+## Two sum
 ``` python
 def twosum(nums,target):
     dic={}
